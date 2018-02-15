@@ -1,0 +1,83 @@
+body {
+  background-color: #98D2DF;
+}
+
+h1 {
+  font-family: 'Oswald';
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
+}
+
+hr {
+  border-color: #fcfcfc;
+}
+
+input {
+  border-color: 1px solid #fcfcfc;
+  margin-top: 6px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+section {
+  background-color: #ffffff;
+  font-family: 'Open Sans';
+  letter-spacing: 0.02rem;
+  font-size: 12px;
+  display: block;
+  padding: 30px;
+  width: 400px;
+}
+
+.contactinfo input {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 375px;
+}
+
+textarea {
+  display: block;
+  width: 375px;
+  height: 70px;
+  margin: 6px 10px 16px 0px;
+  padding: 5px;
+}
+
+button {
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  background-color: #B69843;
+  border: 1px solid #B69843;
+  margin-top: 10px;
+  padding: 10px;
+  width: 150px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: gray;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: gray;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: gray;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
